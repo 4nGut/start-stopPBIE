@@ -6,7 +6,7 @@
 Before starting the configuration, we’ll need to have access to an Azure Subscription with the appropriate permissions to follow up the instructions, as well as a Power BI Embedded resource deployed, in this example we’ll be working with the Contributor Role assigned. The creation of the Power BI Embedded resource and configuration of a restricted role are out of the scope of this document.
 ### Steps to configure an Azure Automation Account
 1.	Generate an Azure Automation Account from the portal with a Managed Identity of the type System Assigned
-2.  Update the PowerShell modules Az.Accounts and Az.PowerBIEmbeddedCapacity
+2.  Update the PowerShell modules Az.Accounts and Az.PowerBIEmbedded
 3.	Once created, we’ll start creating the following 4 variables:
     1.	pbie with the value of Power BI Embedded’s name
     2.	pbierg with the value of the Resource Group’s name where the Power BI Embedded resource resides
